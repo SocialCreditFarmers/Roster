@@ -19,7 +19,7 @@
 	--fs-h1: 4rem;
 	--fs-h2: 3rem;
 	--fs-h3: 2rem;
-	--fs-body: 1rem;
+	--fs-body: 0.85rem;
 
 	--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 0.125em rgba(0,0,0,.15);
 }
@@ -258,4 +258,6 @@ footer {
 canvas {
 	position: fixed;
 	z-index: -2;
+	height: 100%;
+	width: 100%;
 }
