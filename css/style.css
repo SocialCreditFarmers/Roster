@@ -13,7 +13,7 @@
 	--fw-bold: 900;
 
 	--clr-light: #FFF;
-	--clr-dark: #101010;
+	--clr-dark: #202020;
 	--clr-accent: rgb(108,206,231);
 
 	--fs-h1: 4rem;
@@ -125,7 +125,7 @@ header {
 
 .main {
 	background-color: var(--clr-dark);
-	background-image: url(../img/icecrown.jpg) ;
+	background-image: url(../img/naxx.jpg) ;
 	background-size: cover;
 	background-blend-mode: multiply;
 	justify-content: center;
