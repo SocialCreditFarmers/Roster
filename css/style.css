@@ -245,7 +245,7 @@ footer {
 
 /* RESPONSIVE BULLSHIT */
 
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
 	.dpslist {
 		display: flex;
 		margin: auto;
