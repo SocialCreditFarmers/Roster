@@ -29,7 +29,7 @@
 		--fs-h1: 6rem;
 		--fs-h2: 4rem;
 		--fs-h3: 3rem;
-		--fs-body: 1rem;
+		--fs-body: 1.125rem;
 	}
 }
 
@@ -78,7 +78,7 @@ h3 { font-size: var(--fs-h3); }
 
 header {
 	color: var(--clr-accent);
-	border-bottom: solid white 2px;
+	border-bottom: solid white; 2px;
 }
 
 .title {
@@ -92,7 +92,7 @@ header {
 	width: 3em;
 	height: 2px;
 	background: var(--clr-accent);
-	margin: 0.75em auto;
+	margin: 0.85em auto;
 }
 
 .subtitle {
@@ -219,7 +219,7 @@ header {
 /* FOOTER */
 
 footer {
-	border-top: solid white 2px;
+	border-top: solid white 1px;
 	margin: auto;
 }
 
@@ -257,7 +257,7 @@ footer {
 		flex-flow: row wrap;
 		align-content: space-between;
   	justify-content: space-between;
-  	max-width: 50vw;
+  	max-width: 80vw;
   	margin: auto;
 	}
 }
