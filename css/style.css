@@ -29,7 +29,7 @@
 		--fs-h1: 6rem;
 		--fs-h2: 4rem;
 		--fs-h3: 3rem;
-		--fs-body: 1.125rem;
+		--fs-body: 1.25rem;
 	}
 }
 
@@ -188,7 +188,7 @@ header {
 	text-align: right;
 	position:  relative;
 	left: -1.5em;
-	width: 35em;
+	width: 25em;
 }
 
 
