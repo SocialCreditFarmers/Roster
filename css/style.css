@@ -78,7 +78,7 @@ h3 { font-size: var(--fs-h3); }
 
 header {
 	color: var(--clr-accent);
-	border-bottom: solid white 1px;
+	border-bottom: solid white 2px;
 }
 
 .title {
@@ -219,7 +219,7 @@ header {
 /* FOOTER */
 
 footer {
-	border-top: solid white 1px;
+	border-top: solid white 2px;
 	margin: auto;
 }
 
