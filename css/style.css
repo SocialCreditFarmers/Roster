@@ -77,40 +77,30 @@ h3 { font-size: var(--fs-h3); }
 /* TOP */
 
 header {
-	color: rgb(108,206,231);
+	color: var(--clr-accent);
 	border-bottom: solid white 1px;
 }
 
 .title {
 	text-align: center;
-	padding: 20px;
+	padding: 70px 20px 0px 20px;
 }
 
-
-.subtitle {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-
-/* HEADER ROLES */
-
-.role {
-	padding: 30px;
-	padding-top: 50px;
-	text-align: center;
-	font-weight: 900;
-	font-family: var(--ff-primary);
-}
-
-.role::after {
+.title::after {
 	content: '';
 	display: block;
 	width: 3em;
 	height: 2px;
-	margin: 1em auto 0;
-	background: var(--clr-light);
+	background: var(--clr-accent);
+	margin: 0.75em auto;
 }
+
+.subtitle {
+	text-align: center;
+	margin: 1em auto;
+	padding-bottom: 20px;
+}
+
 
 /* MAIN */
 
