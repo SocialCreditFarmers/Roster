@@ -77,12 +77,8 @@ h3 { font-size: var(--fs-h3); }
 /* TOP */
 
 header {
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: url('../img/icecrown.jpg');
-	color: transparent;
+	color: rgb(108,206,231);
 	border-bottom: solid white 1px;
-	z-index: 100;
 }
 
 .title {
