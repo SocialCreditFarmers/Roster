@@ -81,48 +81,54 @@ header {
 	border-bottom: solid white; 2px;
 }
 
+/* LOGO */
+
 .scf {
-	width: 800px;
+	width: 300px;
 	margin: auto;
 	padding: 0;
+	border: 0;
 	opacity: 0.8;
-	scale: 1.83;
-	transform: translate(-2px,14px);
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+	right: 0;
 }
 
 .logobox {
-	margin: auto;
-	padding: 0;
-	width: 550px;
-	height: 550px;
+	width: 240px;
+	height: 240px;
 	border-radius: 50%;
-	overflow: hidden;
 	animation: glow 1s infinite alternate;
-	box-shadow:
+	padding: 0;
+	margin: auto;
+	position: relative;
+	transform: translate(2px,15px);
 }
+
 
 @keyframes glow {
 	from {
 	box-shadow:
-    inset 0 0 25px #fff,
-    inset 0 20px 25px #fff400,
-    inset 0 -20px 25px #ff0000,    
-    inset 0 20px 50px #fff400,
-    inset 0 -20px 50px #ff0000,
-    0 0 25px #fff,
-    0 -5px 30px #fff400,
-    0 5px 30px #ff0000;
+    inset 0 0 13px #fff,
+    inset 0 10px 13px #fff400,
+    inset 0 -10px 13px #ff0000,    
+    inset 0 10px 25px #fff400,
+    inset 0 -10px 25px #ff0000,
+    0 0 13px #fff,
+    0 -10px 15px #fff400,
+    0 10px 15px #ff0000;
 	}
 	to {
 	box-shadow:
-    inset 0 0 50px #fff,
-    inset 0 20px 50px #fff400,
-    inset 0 -20px 50px #ff0000,
-    inset 0 20px 100px #fff400,
-    inset 0 -20px 100px #ff0000,
-    0 0 50px #fff,
-    0 -5px 60px #fff400,
-    0 5px 60px #ff0000;
+    inset 0 0 25px #fff,
+    inset 0 10px 25px #fff400,
+    inset 0 -10px 25px #ff0000,
+    inset 0 10px 50px #fff400,
+    inset 0 -10px 50px #ff0000,
+    0 0 25px #fff,
+    0 -10px 30px #fff400,
+    0 10px 30px #ff0000;
 	}
 }
 
@@ -302,6 +308,41 @@ footer {
 /* RESPONSIVE BULLSHIT */
 
 @media (min-width: 800px) {
+  .scf {
+  	width: 550px;
+  }
+
+  .logobox {
+		width: 440px;
+		height: 440px;
+		transform: translate(3px,20px)
+	}
+
+	@keyframes glow {
+	from {
+	box-shadow:
+    inset 0 0 25px #fff,
+    inset 0 20px 25px #fff400,
+    inset 0 -20px 25px #ff0000,    
+    inset 0 20px 50px #fff400,
+    inset 0 -20px 50px #ff0000,
+    0 0 25px #fff,
+    0 -20px 30px #fff400,
+    0 20px 30px #ff0000;
+	}
+	to {
+	box-shadow:
+    inset 0 0 50px #fff,
+    inset 0 20px 50px #fff400,
+    inset 0 -20px 50px #ff0000,
+    inset 0 20px 100px #fff400,
+    inset 0 -20px 100px #ff0000,
+    0 0 50px #fff,
+    0 -20px 60px #fff400,
+    0 20px 60px #ff0000;
+	}
+}
+
 	.dpslist {
 		display: flex;
 		margin: auto;
