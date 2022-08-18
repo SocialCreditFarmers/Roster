@@ -19,7 +19,7 @@
 	--fs-h1: 4rem;
 	--fs-h2: 3rem;
 	--fs-h3: 2rem;
-	--fs-body: 0.85rem;
+	--fs-body: 0.95rem;
 
 	--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 0.125em rgba(0,0,0,.15);
 }
@@ -198,7 +198,14 @@ header {
 	font-family: var(--ff-primary);
 	margin-bottom: 1em;
 	font-size: var(--fs-body);
-	max-width: 80vw;
+	max-width: 90vw;
+	align-self:  start;
+	grid-column: -1 / 1;
+	grid-row: 2;
+	text-align: right;
+	position:  relative;
+	left: -0.75em;
+	width: 25em;
 }
 
 
@@ -210,38 +217,24 @@ header {
 	box-shadow: var(--bs);
 	animation: fadeIn 1s;
 	max-width: 30vw;
+	grid-area: img;
+	width:  100px;
+	position: relative;
+
 }
 
 
 .grid {
 	display:  grid;
-	padding: 5em 2em;
+	padding: 2.5em 1em;
 	width:  min-content;
 	margin: 0 auto;
-	grid-column-gap: 1em;
+	grid-column-gap: 0.5em;
 	grid-template-areas:
 		"img title"
 		"img subtitle";
 	grid-template-columns: min-content max-content;
 }
-
-.avatar {
-	grid-area: img;
-	width:  150px;
-		position: relative;
-
-}
-
-.player_class {
-	align-self:  start;
-	grid-column: -1 / 1;
-	grid-row: 2;
-	text-align: right;
-	position:  relative;
-	left: -1.5em;
-	width: 25em;
-}
-
 
 
 /* CLASSES */
@@ -343,12 +336,6 @@ footer {
 	}
 }
 
-	.dpslist {
-		display: flex;
-		margin: auto;
-		justify-content: center;
-	}
-
 	.roleflex {
 		display: flex;
 		flex-flow: row wrap;
@@ -357,6 +344,39 @@ footer {
   	max-width: 80vw;
   	margin: auto;
 	}
+	.player_class {
+	color: var(--clr-dark);
+	transform: scaleX(0);
+	transform-origin: left;
+	animation: animate 1s 1.5s cubic-bezier(1, 0.0, 0.5, 1.0) forwards;
+	padding: .25em 1em;
+	font-family: var(--ff-primary);
+	margin-bottom: 1em;
+	font-size: var(--fs-body);
+	max-width: 90vw;
+	align-self:  start;
+	grid-column: -1 / 1;
+	grid-row: 2;
+	text-align: right;
+	position:  relative;
+	left: -1.5em;
+	width: 25em;
+}
+
+
+.player_name {
+	animation: fadeIn 2s ease forwards;
+}
+
+.avatar {
+	box-shadow: var(--bs);
+	animation: fadeIn 1s;
+	max-width: 30vw;
+	grid-area: img;
+	width:  150px;
+	position: relative;
+
+}
 }
 
 
