@@ -81,12 +81,27 @@ header {
 	border-bottom: solid white; 2px;
 }
 
+.scf {
+	width: 550px;
+	margin: auto;
+	box-shadow:
+    inset 0 0 50px #fff,
+    0 0 50px #fff, 
+    0 -10px 80px #fff400, 
+    0 10px 80px #ff0000;
+	opacity: 0.8;
+}
+
+.logobox {
+	padding: 70px 20px 0px 20px;
+}
+
 .title {
 	text-align: center;
 	padding: 70px 20px 0px 20px;
 }
 
-.title::after {
+.subtitle::before {
 	content: '';
 	display: block;
 	width: 3em;
@@ -215,6 +230,17 @@ header {
 	background-color: #3FC7EB; 
 }
 
+.druid {
+	background-color: #FF7C0A;
+}
+
+.rogue {
+	background-color: #FFF468;
+}
+
+.warlock {
+	background-color: #8788EE;
+}
 
 /* FOOTER */
 
