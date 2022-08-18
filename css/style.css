@@ -21,7 +21,7 @@
 	--fs-h3: 2rem;
 	--fs-body: 0.95rem;
 
-	--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 0.125em 0.125em rgba(0,0,0,.15);
+	--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.50), 0.125em 0.125em rgba(0,0,0,.30);
 }
 
 @media (min-width:  800px) {
