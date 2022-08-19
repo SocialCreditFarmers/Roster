@@ -279,6 +279,9 @@ table {
 	width: 90vw;
 	text-align: left;
 	border-collapse:collapse;
+}
+
+.tbody {
 	border:1px solid white;
 }
 
@@ -293,7 +296,7 @@ table {
 	display: inline;
 }
 
-table tr,td{
+tbody tr,td{
 	border:2px solid white;
 }
 
