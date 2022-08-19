@@ -247,6 +247,15 @@ header {
 	background-position: bottom;
 }
 
+.métiers {
+	background-color: var(--clr-dark);
+	background-image: url(../img/bs.jpg) ;
+	background-size: cover;
+	background-blend-mode: multiply;
+	justify-content: center;
+	color: var(--clr-light);
+	background-position: bottom;
+}
 
 /* ROSTER */ 
 
