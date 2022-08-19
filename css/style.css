@@ -220,7 +220,6 @@ header {
 	grid-area: img;
 	width:  100px;
 	position: relative;
-
 }
 
 
@@ -271,6 +270,50 @@ header {
 	background-color: #8788EE;
 }
 
+/* PROFESSIONS */
+
+table {
+	justify-content: center;
+	margin: auto;
+	padding: 50px 0 50px 0;
+	width: 90vw;
+	text-align: left;
+	border-collapse:collapse;
+	border:1px solid white;
+}
+
+.profimg {
+	float: left;
+	width: 50px;
+}
+
+.profname {
+	border: 0;
+	padding: 0 0 0 10px;
+	display: inline;
+}
+
+table tr,td{
+	border:2px solid white;
+}
+
+table li{
+	list-style: none;
+}
+
+th, td {
+	font-size: 0.95em;
+	padding: 10px;
+}
+
+th {
+	width: 48vw;
+}
+
+table td:nth-child(2) {
+	width: 20vw;
+}
+
 /* FOOTER */
 
 footer {
@@ -301,6 +344,16 @@ footer {
 /* RESPONSIVE BULLSHIT */
 
 @media (min-width: 800px) {
+
+	th, td {
+	font-size: 1.5em;
+	padding: 15px;
+	}
+
+	th {
+	width: 20vw;
+	}
+
   .scf {
   	width: 550px;
   }
