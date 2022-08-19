@@ -30,13 +30,17 @@
 		--fs-h1: 6rem;
 		--fs-h2: 4rem;
 		--fs-h3: 3rem;
-		--fs-h4: 2rem;
+		--fs-h4: 2.5rem;
 		--fs-body: 1.25rem;
 	}
 }
 
 html {
 	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
 }
 
 body {
@@ -156,6 +160,61 @@ header {
 	padding-bottom: 20px;
 }
 
+/* HOME */
+
+.flex {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.button {
+	width: 100%;
+	height: 300px;
+	color: var(--clr-light);
+	border-radius: 50px;
+	margin: 70px auto;
+	padding-top: 50px;
+	border: solid 1px var(--clr-light);
+	background-color: #a9a9a9 ;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-position: center;
+	transition: transform 500ms ease-in-out;
+}
+
+
+.button h2:after {
+	content: '';
+	display: block;
+	width: 3em;
+	height: 2px;
+	background: var(--clr-light);
+	margin: 0.85em auto;
+}
+
+.button:hover {
+	animation: button 0.5s forwards;
+	transform: scale(1.05);
+}
+
+.roster {
+	background-image: url(../img/naxx.jpg);
+}
+
+.prof {
+	background-image: url(../img/bs.jpg);
+}
+
+.home {
+	padding: 50px;
+	background-image: url(../img/icecrown.jpg);
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: #101010;
+
+}
 
 /* ROLES */
 
@@ -357,9 +416,35 @@ footer {
   100% { opacity: 1; }
 }
 
+@keyframes button {
+	from {
+		background-color: #505050;
+	}
+
+	to {
+		background-color: var(--clr-dark);
+	}
+}
+
 /* RESPONSIVE BULLSHIT */
 
 @media (min-width: 800px) {
+	.flex {
+		flex-direction: row;
+	}
+
+	.roster {
+		margin-right: 40px;
+	}
+
+	.prof {
+		margin-left: 40px;
+	}
+
+	.button {
+		width: 40%;
+		height: 600px;
+	}
 
 	th, td {
 	font-size: 1.5rem;
@@ -377,7 +462,8 @@ footer {
   .logobox {
 		width: 440px;
 		height: 440px;
-		transform: translate(3px,20px)
+		transform: translate(3px,20px);
+		z-index: -1;
 	}
 
 	@keyframes glow {
