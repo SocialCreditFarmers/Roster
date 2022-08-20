@@ -491,13 +491,6 @@ footer {
   	width: 350px;
   }
 
-  .logobox {
-		width: 440px;
-		height: 440px;
-		transform: translate(3px,20px);
-		z-index: -1;
-	}
-
 	@keyframes glow {
 	from {
 	box-shadow:
