@@ -163,6 +163,8 @@ header {
 	animation: button 0.5s forwards;
 	transform: scale(1.05);
 	animation: glow2 1s infinite alternate;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 
 .roster {
