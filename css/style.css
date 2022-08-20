@@ -101,7 +101,13 @@ header {
 	left: 0;
 	right: 0;
 	animation: glow 1s infinite alternate;
+	transition: opacity 0.3s ease-in-out;
 }
+
+.scf:hover {
+	opacity: 1;
+}
+
 
 
 .title {
