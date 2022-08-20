@@ -176,7 +176,7 @@ header {
 	border-radius: 50px;
 	margin: 70px auto;
 	padding-top: 50px;
-	border: solid 1px var(--clr-light);
+	border: solid 2px var(--clr-light);
 	background-color: #a9a9a9 ;
 	background-size: cover;
 	background-blend-mode: multiply;
