@@ -355,6 +355,7 @@ table {
 .profimg {
 	float: left;
 	width: 12.5%;
+	margin-left: 5px;
 }
 
 .profrow {
