@@ -431,25 +431,25 @@ footer {
 @keyframes glow2 {
 	from {
 	box-shadow:
-    inset 0 0 13px #fff,
-    inset 0 10px 13px var(--clr-accent),
-    inset 0 -10px 13px var(--clr-accent),    
-    inset 0 10px 25px var(--clr-accent),
-    inset 0 -10px 25px var(--clr-accent),
-    0 0 13px #fff,
-    0 -10px 15px var(--clr-accent),
-    0 10px 15px var(--clr-accent);
+    inset 0 0 6.5px #fff,
+    inset 0 5px 6.5px var(--clr-accent),
+    inset 0 -5px 6.5px var(--clr-accent),    
+    inset 0 5px 12.5px var(--clr-accent),
+    inset 0 -5px 12.5px var(--clr-accent),
+    0 0 6.5px #fff,
+    0 -5px 15px var(--clr-accent),
+    0 5px 15px var(--clr-accent);
 	}
 	to {
 	box-shadow:
-    inset 0 0 25px #fff,
-    inset 0 10px 25px var(--clr-accent),
-    inset 0 -10px 25px var(--clr-accent),
-    inset 0 10px 50px var(--clr-accent),
-    inset 0 -10px 50px var(--clr-accent),
-    0 0 25px #fff,
-    0 -10px 30px var(--clr-accent),
-    0 10px 30px var(--clr-accent);
+    inset 0 0 12.5px #fff,
+    inset 0 5px 12.5px var(--clr-accent),
+    inset 0 -5px 12.5px var(--clr-accent),
+    inset 0 5px 25px var(--clr-accent),
+    inset 0 -5px 25px var(--clr-accent),
+    0 0 12.5px #fff,
+    0 -5px 15px var(--clr-accent),
+    0 5px 15px var(--clr-accent);
 	}
 }
 
@@ -522,25 +522,25 @@ footer {
 	@keyframes glow2 {
 	from {
 	box-shadow:
-    inset 0 0 25px #fff,
-    inset 0 20px 25px var(--clr-accent),
-    inset 0 -20px 25px var(--clr-accent),    
-    inset 0 20px 50px var(--clr-accent),
-    inset 0 -20px 50px var(--clr-accent),
-    0 0 25px #fff,
-    0 -20px 30px var(--clr-accent),
-    0 20px 30px var(--clr-accent);
+    inset 0 0 13px #fff,
+    inset 0 10px 13px var(--clr-accent),
+    inset 0 -10px 13px var(--clr-accent),    
+    inset 0 10px 25px var(--clr-accent),
+    inset 0 -10px 25px var(--clr-accent),
+    0 0 13px #fff,
+    0 -10px 15px var(--clr-accent),
+    0 10px 15px var(--clr-accent);
 	}
 	to {
 	box-shadow:
-    inset 0 0 50px #fff,
-    inset 0 20px 50px var(--clr-accent),
-    inset 0 -20px 50px var(--clr-accent),
-    inset 0 20px 100px var(--clr-accent),
-    inset 0 -20px 100px var(--clr-accent),
-    0 0 50px #fff,
-    0 -20px 60px var(--clr-accent),
-    0 20px 60px var(--clr-accent);
+    inset 0 0 25px #fff,
+    inset 0 10px 25px var(--clr-accent),
+    inset 0 -10px 25px var(--clr-accent),
+    inset 0 10px 50px var(--clr-accent),
+    inset 0 -10px 50px var(--clr-accent),
+    0 0 25px #fff,
+    0 -10px 30px var(--clr-accent),
+    0 10px 30px var(--clr-accent);
 	}
 }
 
