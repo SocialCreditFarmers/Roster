@@ -98,21 +98,11 @@ header {
 	border: 0;
 	opacity: 0.8;
 	border-radius: 50%;
-	position: absolute;
 	left: 0;
 	right: 0;
+	animation: glow 1s infinite alternate;
 }
 
-.logobox {
-	width: 240px;
-	height: 240px;
-	border-radius: 50%;
-	animation: glow 1s infinite alternate;
-	padding: 0;
-	margin: auto;
-	position: relative;
-	transform: translate(2px,15px);
-}
 
 
 @keyframes glow {
