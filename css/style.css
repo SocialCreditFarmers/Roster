@@ -338,11 +338,15 @@ header {
 table {
 	justify-content: center;
 	margin: auto;
-	padding: 50px 0 50px 0;
+	padding: 50px 0 0 0;
 	width: 90vw;
 	text-align: left;
-	border-collapse:collapse;
+	border-collapse: collapse;
+	box-shadow: var(-bs);
+	border-radius: 15px;
+	overflow: hidden;
 }
+
 
 .tbody {
 	border:1px solid white;
@@ -350,30 +354,41 @@ table {
 
 .profimg {
 	float: left;
-	width: 50px;
+	width: 12.5%;
+}
+
+.profrow {
+	display: flex;
+	align-items: center;
+	margin: 0;
 }
 
 .profname {
 	border: 0;
 	padding: 0 0 0 10px;
-	display: inline;
+	display: inline-block;
 }
 
-tbody tr,td{
-	border:2px solid white;
-}
 
 table li{
 	list-style: none;
 }
 
+thead tr {
+    background-color: var(--clr-accent);
+    text-align: left;
+ }
+
 th, td {
-	font-size: 0.95rem;
-	padding: 10px;
+	font-size: 0.75rem;
 }
 
 th {
 	width: 48vw;
+}
+
+thead {
+	line-height: 1px;
 }
 
 th:nth-child(2),
@@ -385,6 +400,15 @@ th:nth-child(3),
 td:nth-child(3) {
 	width: 50vw;
 }
+
+tbody tr:nth-of-type(even) {
+    background-color: var(--clr-dark);
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #101010;
+}
+
 
 /* FOOTER */
 
