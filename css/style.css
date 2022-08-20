@@ -92,7 +92,7 @@ header {
 /* LOGO */
 
 .scf {
-	width: 300px;
+	width: 250px;
 	margin: auto;
 	padding: 0;
 	border: 0;
@@ -107,7 +107,6 @@ header {
 .scf:hover {
 	opacity: 1;
 }
-
 
 
 .title {
@@ -144,7 +143,7 @@ header {
 	contain: content;
 	color: var(--clr-light);
 	border-radius: 50px;
-	margin: 70px;
+	margin: 70px auto;
 	border: solid 2px var(--clr-light);
 	background-color: #101010 ;
 	background-size: cover;
@@ -195,14 +194,6 @@ header {
 	background-image: url(../img/bs.png);
 }
 
-.home {
-	padding: 50px 0;
-	background-image: url(../img/icecrown.jpg);
-	background-size: cover;
-	background-blend-mode: multiply;
-	background-color: #101010;
-}
-
 
 /* ROLES */
 
@@ -244,6 +235,15 @@ header {
 	color: var(--clr-light);
 	background-position: top;
 }
+
+.home {
+	padding: 50px 0;
+	background-image: url(../img/icecrown.jpg);
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: #101010;
+}
+
 
 /* ROSTER */ 
 
@@ -488,7 +488,7 @@ footer {
 	}
 
   .scf {
-  	width: 550px;
+  	width: 350px;
   }
 
   .logobox {
