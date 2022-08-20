@@ -343,7 +343,7 @@ table {
 	text-align: left;
 	border-collapse: collapse;
 	box-shadow: var(-bs);
-	border-radius: 15px;
+	border-radius: 6px;
 	overflow: hidden;
 }
 
