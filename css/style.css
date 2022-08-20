@@ -182,11 +182,11 @@ header {
 }
 
 .roster {
-	background-image: url(../img/naxx.jpg);
+	background-image: url(../img/naxx.png);
 }
 
 .prof {
-	background-image: url(../img/bs.jpg);
+	background-image: url(../img/bs.png);
 }
 
 .home {
@@ -221,7 +221,7 @@ header {
 
 .main {
 	background-color: var(--clr-dark);
-	background-image: url(../img/naxx.jpg) ;
+	background-image: url(../img/naxx.png) ;
 	background-size: cover;
 	background-blend-mode: multiply;
 	justify-content: center;
@@ -231,7 +231,7 @@ header {
 
 .métiers {
 	background-color: var(--clr-dark);
-	background-image: url(../img/bs.jpg) ;
+	background-image: url(../img/bs.png) ;
 	background-size: cover;
 	background-blend-mode: multiply;
 	justify-content: center;
