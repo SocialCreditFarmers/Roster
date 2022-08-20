@@ -220,7 +220,7 @@ header {
 	background-blend-mode: multiply;
 	justify-content: center;
 	color: var(--clr-light);
-	background-position: bottom;
+	background-position: top;
 }
 
 /* ROSTER */ 
