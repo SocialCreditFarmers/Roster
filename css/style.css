@@ -354,6 +354,9 @@ table {
 	float: left;
 	width: 12.5%;
 	margin-left: 5px;
+	max-width: 50px;
+	max-height: 50px;
+}
 }
 
 .profrow {
