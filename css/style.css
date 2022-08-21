@@ -347,11 +347,6 @@ table {
 	overflow: hidden;
 }
 
-
-.tbody {
-	border:1px solid white;
-}
-
 .profimg {
 	float: left;
 	width: 12.5%;
@@ -366,7 +361,7 @@ table {
 
 .profname {
 	border: 0;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 8px;
 	display: inline-block;
 }
 
@@ -377,29 +372,29 @@ table li{
 
 thead tr {
     background-color: #506497;
-    text-align: left;
  }
 
 th, td {
 	font-size: 0.75rem;
 }
 
-th {
-	width: 48vw;
-}
-
 thead {
 	line-height: 1px;
 }
 
+th:nth-child(1),
+td:nth-child(1) {
+	width: 35vw;
+}
+
 th:nth-child(2),
 td:nth-child(2) {
-	width: 5vw;
+	width: 10vw;
 }
 
 th:nth-child(3),
 td:nth-child(3) {
-	width: 50vw;
+	width: 35vw;
 }
 
 tbody tr:nth-of-type(even) {
@@ -409,7 +404,6 @@ tbody tr:nth-of-type(even) {
 tbody tr:nth-of-type(odd) {
     background-color: #101010;
 }
-
 
 /* FOOTER */
 
@@ -506,10 +500,6 @@ footer {
 	th, td {
 	font-size: 1.5rem;
 	padding: 15px;
-	}
-
-	th {
-	width: 20vw;
 	}
 
   .scf {
