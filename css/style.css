@@ -497,6 +497,10 @@ footer {
 	height: 20vw;
 	}
 
+	table {
+		max-width: 80%;
+	}
+	
 	th, td {
 	font-size: 1.5rem;
 	padding: 15px;
