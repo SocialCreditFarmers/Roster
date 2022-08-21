@@ -138,6 +138,9 @@ header {
 	flex-direction: column;
 }
 
+.flex h2 {
+	pointer-events: none;
+}
 
 .imgwrap {
 	contain: content;
