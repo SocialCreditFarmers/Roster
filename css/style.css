@@ -150,6 +150,9 @@ header {
 	animation: glow2 1s infinite alternate;
 	width: 80vw;
 	height: 40vw;
+	max-width: 50px;
+	max-height: 50px;
+}
 }
 
 .imgwrap h2 {
